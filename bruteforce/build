@@ -1,0 +1,3 @@
+#! /bin/bash
+
+gcc bruteforce.c md5.c -o bruteforce -l crypto

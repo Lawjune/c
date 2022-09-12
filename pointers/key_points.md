@@ -46,3 +46,34 @@ int arr[4];
 f(int[]);
 f(int *x);
 ```
+
+## Function Pointer in C
+
+A function is a block of instructions with a name.
+It exists somewhere in memory.
+
+A pointer to the function is just the address of where the instructions start.
+
+**Example**
+
+```c
+int foo(int x)
+```
+
+`foo` is the address of foo (so is &foo)
+_To assigne foo to a variable, declare it like this?_
+
+```c
+int (*bar) (int x) foo;
+```
+
+`int` => the function returns an int
+`(*)` => it's a pointer to a function
+`(bar)` => name of var
+`(*bar)` => the pointer points to function
+`(int x)` => parameters
+
+**Calling a function through its pointer**
+To call the function, just use the variable as if it was the function name. Derefernce is done for you.
+
+Both foo and bar point to the ame block of code.
