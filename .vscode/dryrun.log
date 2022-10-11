@@ -1,7 +1,6 @@
 make --dry-run --keep-going --print-directory
-make: Entering directory `/Users/mac/Projects/c'
- 
-make: Leaving directory `/Users/mac/Projects/c'
+make: Entering directory `/Users/mac/Projects/cpp_tutorials/c'
+make: Leaving directory `/Users/mac/Projects/cpp_tutorials/c'
  
 make: *** No targets specified and no makefile found.  Stop.
 

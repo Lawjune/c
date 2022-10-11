@@ -17,5 +17,5 @@ int main(int argc, char * argv[])
     char *hash = md5(plain, strlen(plain));
 
     printf("Hash: %s\n", hash);
-    free(hash);
+    // free(hash);
 }
