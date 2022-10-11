@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Oct 11 17:08:51 2022
+# Make data base, printed on Tue Oct 11 22:02:07 2022
 
 # Variables
 
@@ -85,32 +85,25 @@ XPC_FLAGS = 0x0
 # environment
 COLORTERM = truecolor
 # default
- 
 MAKE = $(MAKE_COMMAND)
 # environment
 LC_TERMINAL = iTerm2
- 
 # environment
 SHLVL = 3
 # default
 MAKE_VERSION := 3.81
- 
 # environment
 USER = mac
 # makefile
- 
 .DEFAULT_GOAL := 
 # default
- 
 MAKECMDGOALS := all
 # environment
 TERM_SESSION_ID = w0t0p0:C59A55AB-5F41-4FAC-9F4C-5ACA9D196B7A
 # environment
 LESS = -R
- 
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
- 
 # environment
 CONDA_SHLVL = 0
 # default
@@ -252,7 +245,6 @@ GNUmakefile:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
@@ -265,6 +257,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Tue Oct 11 17:08:51 2022
+# Finished Make data base on Tue Oct 11 22:02:07 2022
 
  
